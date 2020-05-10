@@ -4,3 +4,4 @@ Tests/preprocessed/*
 Tests/region-ocr.py
 Tests/datadriver.robot
 Tests/test.robot
+.DS_Store
