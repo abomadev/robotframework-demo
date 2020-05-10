@@ -10,3 +10,6 @@
 - pip install fuzzywuzzy
 - pip install opencv-python
 - pip install numpy
+
+## Command
+robot -d Results --timestampoutputs -v preprocess:remove_noise Tests/TestSuite/Tesseract.robot
