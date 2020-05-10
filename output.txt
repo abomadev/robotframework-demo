@@ -1,0 +1,104 @@
+==============================================================================
+Tesseract :: Simple example using SeleniumLibrary.                            
+==============================================================================
+Expect sample-e-01.png to print slideLock :: Running with:            | PASS |
+------------------------------------------------------------------------------
+Expect sample-e-02.png to print INTRODUCTION :: Running with:         | FAIL |
+Match percentage: 27%: PUL as CLI != INTRODUCTION
+------------------------------------------------------------------------------
+Expect sample-e-03.png to print Hello :: Running with:                | PASS |
+------------------------------------------------------------------------------
+Expect sample-e-04.png to print cunaH :: Running with:                | FAIL |
+Match percentage: 55%: CUnQaH != cunaH
+------------------------------------------------------------------------------
+Expect sample-e-05.png to print google recaptcha :: Running with:     | FAIL |
+Match percentage: 80%: Boog recaptchs != google recaptcha
+------------------------------------------------------------------------------
+Expect sample-e-06.png to print W6 8HP :: Running with:               | FAIL |
+Match percentage: 83%: We 8HP != W6 8HP
+------------------------------------------------------------------------------
+Expect sample-e-07.png to print PRNU :: Running with:                 | PASS |
+------------------------------------------------------------------------------
+Expect sample-e-08.png to print fa636d :: Running with:               | FAIL |
+Match percentage: 0%:  != fa636d
+------------------------------------------------------------------------------
+Expect sample-e-09.png to print pytesseract. :: Running with:         | PASS |
+------------------------------------------------------------------------------
+Expect sample-e-10.png to print arch dsjcbka :: Running with:         | FAIL |
+Match percentage: 92%: arch dsjobka != arch dsjcbka
+------------------------------------------------------------------------------
+Expect sample-m-01.jpg to print RBSKW :: Running with:                | FAIL |
+Match percentage: 0%:  != RBSKW
+------------------------------------------------------------------------------
+Expect sample-m-02.jpg to print UXP4D :: Running with:                | FAIL |
+Match percentage: 55%: UXEzED != UXP4D
+------------------------------------------------------------------------------
+Expect sample-m-03.jpg to print X8B9A :: Running with:                | FAIL |
+Match percentage: 50%: XSBRSGA != X8B9A
+------------------------------------------------------------------------------
+Expect sample-m-04.jpg to print JA3V8 :: Running with:                | FAIL |
+Match percentage: 0%:  != JA3V8
+------------------------------------------------------------------------------
+Expect sample-m-05.jpg to print 459CT :: Running with:                | FAIL |
+Match percentage: 0%:  != 459CT
+------------------------------------------------------------------------------
+Expect sample-m-06.jpg to print HAPK3 :: Running with:                | FAIL |
+Match percentage: 0%:  != HAPK3
+------------------------------------------------------------------------------
+Expect sample-m-07.jpg to print JN6TS :: Running with:                | FAIL |
+Match percentage: 0%:  != JN6TS
+------------------------------------------------------------------------------
+Expect sample-m-08.jpg to print BR8X6 :: Running with:                | FAIL |
+Match percentage: 60%: BREXS != BR8X6
+------------------------------------------------------------------------------
+Expect sample-m-09.png to print HSD5A :: Running with:                | FAIL |
+Match percentage: 0%:  != HSD5A
+------------------------------------------------------------------------------
+Expect sample-m-10.png to print 83tsU :: Running with:                | FAIL |
+Match percentage: 91%: 8 3tsU != 83tsU
+------------------------------------------------------------------------------
+Expect sample-h-01.jpg to print W93BX :: Running with:                | FAIL |
+Match percentage: 0%:  != W93BX
+------------------------------------------------------------------------------
+Expect sample-h-02.jpg to print TK58P :: Running with:                | FAIL |
+Match percentage: 0%:  != TK58P
+------------------------------------------------------------------------------
+Expect sample-h-03.png to print 6H3T8 :: Running with:                | FAIL |
+Match percentage: 0%:  != 6H3T8
+------------------------------------------------------------------------------
+Expect sample-h-04.jpg to print 9Y548 :: Running with:                | FAIL |
+Match percentage: 9%: M4
+
+all
+
+   
+ 
+
+it != 9Y548
+------------------------------------------------------------------------------
+Expect sample-h-05.jpg to print SREMD :: Running with:                | FAIL |
+Match percentage: 0%:  != SREMD
+------------------------------------------------------------------------------
+Expect sample-h-06.jpg to print HY4NM :: Running with:                | FAIL |
+Match percentage: 29%: Ie YZONV) != HY4NM
+------------------------------------------------------------------------------
+Expect sample-h-07.jpg to print 6AR8R :: Running with:                | FAIL |
+Match percentage: 0%:  != 6AR8R
+------------------------------------------------------------------------------
+Expect sample-h-08.jpg to print SKARD :: Running with:                | FAIL |
+Match percentage: 0%:  != SKARD
+------------------------------------------------------------------------------
+Expect sample-h-09.png to print R84CH :: Running with:                | FAIL |
+Match percentage: 0%:  != R84CH
+------------------------------------------------------------------------------
+Expect sample-h-10.png to print TSMS9 :: Running with:                | FAIL |
+Match percentage: 0%:  != TSMS9
+------------------------------------------------------------------------------
+Running Suit Teardown
+Tesseract :: Simple example using SeleniumLibrary.                    | FAIL |
+30 critical tests, 4 passed, 26 failed
+30 tests total, 4 passed, 26 failed
+==============================================================================
+Output:  /Users/aboma/workspace/work/robotframework-demo/Results/output-20200511-091733.xml
+Log:     /Users/aboma/workspace/work/robotframework-demo/Results/log-20200511-091733.html
+Report:  /Users/aboma/workspace/work/robotframework-demo/Results/report-20200511-091733.html
