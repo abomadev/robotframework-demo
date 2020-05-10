@@ -1,5 +1,31 @@
-hello-01, hello,
-hello-02, hello,
-hello-03, hello,
-introduction, introduction,
-test, pytesseract.,
+*** Test Cases ***,${filename},${solution},[Tags],[Documentation]
+,sample-e-01.png,slideLock,"sample-e-01.png,Easy",Running with: ${preprocess}
+,sample-e-02.png,INTRODUCTION,"sample-e-02.png,Easy",Running with: ${preprocess}
+,sample-e-03.png,Hello,"sample-e-03.png,Easy",Running with: ${preprocess}
+,sample-e-04.png,cunaH,"sample-e-04.png,Easy",Running with: ${preprocess}
+,sample-e-05.png,google recaptcha,"sample-e-05.png,Easy",Running with: ${preprocess}
+,sample-e-06.png,W6 8HP,"sample-e-06.png,Easy",Running with: ${preprocess}
+,sample-e-07.png,PRNU,"sample-e-07.png,Easy",Running with: ${preprocess}
+,sample-e-08.png,fa636d,"sample-e-08.png,Easy",Running with: ${preprocess}
+,sample-e-09.png,pytesseract.,"sample-e-09.png,Easy",Running with: ${preprocess}
+,sample-e-10.png,arch dsjcbka,"sample-e-10.png,Easy",Running with: ${preprocess}
+,sample-m-01.jpg,RBSKW,"sample-m-01.jpg,Medium",Running with: ${preprocess}
+,sample-m-02.jpg,UXP4D,"sample-m-02.jpg,Medium",Running with: ${preprocess}
+,sample-m-03.jpg,X8B9A,"sample-m-03.jpg,Medium",Running with: ${preprocess}
+,sample-m-04.jpg,JA3V8,"sample-m-04.jpg,Medium",Running with: ${preprocess}
+,sample-m-05.jpg,459CT,"sample-m-05.jpg,Medium",Running with: ${preprocess}
+,sample-m-06.jpg,HAPK3,"sample-m-06.jpg,Medium",Running with: ${preprocess}
+,sample-m-07.jpg,JN6TS,"sample-m-07.jpg,Medium",Running with: ${preprocess}
+,sample-m-08.jpg,BR8X6,"sample-m-08.jpg,Medium",Running with: ${preprocess}
+,sample-m-09.png,HSD5A,"sample-m-09.png,Medium",Running with: ${preprocess}
+,sample-m-10.png,83tsU,"sample-m-10.png,Medium",Running with: ${preprocess}
+,sample-h-01.jpg,W93BX,"sample-h-01.jpg,Hard",Running with: ${preprocess}
+,sample-h-02.jpg,TK58P,"sample-h-02.jpg,Hard",Running with: ${preprocess}
+,sample-h-03.png,6H3T8,"sample-h-03.png,Hard",Running with: ${preprocess}
+,sample-h-04.jpg,9Y548,"sample-h-04.jpg,Hard",Running with: ${preprocess}
+,sample-h-05.jpg,SREMD,"sample-h-05.jpg,Hard",Running with: ${preprocess}
+,sample-h-06.jpg,HY4NM,"sample-h-06.jpg,Hard",Running with: ${preprocess}
+,sample-h-07.jpg,6AR8R,"sample-h-07.jpg,Hard",Running with: ${preprocess}
+,sample-h-08.jpg,SKARD,"sample-h-08.jpg,Hard",Running with: ${preprocess}
+,sample-h-09.png,R84CH,"sample-h-09.png,Hard",Running with: ${preprocess}
+,sample-h-10.png,TSMS9,"sample-h-10.png,Hard",Running with: ${preprocess}

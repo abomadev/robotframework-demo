@@ -1,1 +1,0 @@
-python tesseract.py --img-file raw-data/hello-03.png > output.txt

@@ -13,7 +13,9 @@ class TesseractOCR:
     def __init__(self, img_file=None, output_file=None):
        self.img_file = img_file
        self.output = self._to_string()
-       self.save_to_file(output_file)
+       print(self.output)
+       if output_file:
+            self.save_to_file(output_file)
         
     # --- private
     def _to_string(self):
@@ -34,7 +36,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="My fancy script which does something.")
     parser.add_argument('-i','--img-file', type=str, required=True, help="File containing and image of a word/s")
-    parser.add_argument('-o','--output-file', type=str, required=True, help="File containing and image of a word/s")
+    parser.add_argument('-o','--output-file', type=str, help="File containing and image of a word/s")
 
     args = parser.parse_args()
     run_once = TesseractOCR(img_file=args.img_file.strip(), output_file=args.output_file.strip())
