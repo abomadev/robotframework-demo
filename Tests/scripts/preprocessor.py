@@ -24,6 +24,8 @@ class Preprocessor:
             return self.get_grayscale()
         elif filter == 'remove_noise':
             return self.remove_noise()
+        elif filter == 'sharpen':
+            return self.sharpen()
         elif filter == 'thresholding':
             return self.thresholding()
         elif filter == 'dilate':
@@ -51,6 +53,14 @@ class Preprocessor:
     def remove_noise(self):
         return cv2.medianBlur(self.image,5)
     
+    def sharpen(self):
+        # Create our shapening kernel, it must equal to one eventually
+        kernel_sharpening = np.array([[-1,-1,-1], 
+                                    [-1, 9,-1],
+                                    [-1,-1,-1]])
+        # applying the sharpening kernel to the input image & displaying it.
+        return cv2.filter2D(self.image, -1, kernel_sharpening)
+            
     #thresholding
     def thresholding(self):
         # threshold the image, setting all foreground pixels to
