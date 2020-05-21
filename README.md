@@ -6,6 +6,7 @@
 - pip install robotframework
 - pip install robotframework-seleniumlibrary
 - pip install robotframework-ride
+- pip install robotframework-seleniumscreenshots
 - pip install --upgrade robotframework-datadriver
 - pip install fuzzywuzzy
 - pip install opencv-python
